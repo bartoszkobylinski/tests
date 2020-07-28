@@ -1,8 +1,8 @@
 import typing
 import unittest
 
-#from app.string_calc import StringCalculator
-
+from app import StringCalculator
+'''
 
 class StringCalculator:
 
@@ -23,7 +23,7 @@ class StringCalculator:
                     print(f"ValueError:Your input is not a digit. You have to give a digits to add them.")
 
             return result
-
+'''
 
 class TestStringCalculator(unittest.TestCase):
     

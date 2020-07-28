@@ -1,1 +1,1 @@
-from string_calc import StringCalculator
+from . string_calc import StringCalculator

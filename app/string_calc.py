@@ -14,7 +14,6 @@ class StringCalculator:
                 if number.isdigit:
                     result += int(number)
                 else:
-                    raise ValueError:
-                    print(f"ValueError:Your input is not a digit. You have to give a digits to add them.")
+                    raise ValueError(f"ValueError:Your input is not a digit. You have to give a digits to add them.")
 
             return result
